@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Task UI - Ivan Antic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="ftui.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+
+        <div class="header">
+            <div id="ik0"><img src="b0.jpg" alt=""></div>
+            <div class="head">
+                <div>New York State</div>
+                <h2>Request for Contact</h2>
+            </div>
+        </div>
+
+        <div class="forma">
+            <form class="form" action="" name="myForm" method="">
+                <div id="ime">
+                    <div class="ikonica2" id="ik1"><img src="g1.jpg" alt=""></div>
+                    <div class="fields">
+                        <label for="firstname">First Name</label><br>
+                        <input id="firstname" type="text" name="firstName" oninput="checkInput()" required>
+                        <hr>
+                    </div>
+                </div>
+                <div id="prezime">
+                    <div class="ikonica2" id="ik2"><img src="g2.jpg" alt=""></div>
+                    <div class="fields">
+                        <label for="lastname">Last Name</label><br>
+                        <input id="lastname" type="text" name="lastName" oninput="checkInput()" required>
+                        <hr>
+                    </div>
+                </div>
+                <div id="adresa">
+                    <div class="ikonica2" id="ik3"><img src="g3.jpg" alt=""></div>
+                    <div class="fields">
+                        <label for="email">Email Adress</label><br>
+                        <input id="email" type="text" name="eMail" oninput="checkInput()" required>
+                        <hr>
+                    </div>
+                </div>
+                <div id="vreme">
+                    <div class="ikonica2" id="ik4"><img src="g4.jpg" alt=""></div>
+                    <div class="fields">
+                        <p>What is the best time to contact you?</p><br>
+                            <label for="mon"></label><br>
+                            <input id="mon" type="checkbox" name="mon"> Monday 3pm<br>
+                            <label for="tue"></label><br>
+                            <input id="tue" type="checkbox" name="tue"> Tuesday 3pm<br>
+                            <hr>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div id="foot">
+                        <button id="button" type="submit" name="submit" class="submit-button" disabled>Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+
+    </div>
+    <script src="ftui.js"></script>
+</body>
+
+</html>
